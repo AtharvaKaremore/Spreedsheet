@@ -1,0 +1,22 @@
+body {
+    background: url('https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_1280.jpg') no-repeat center center/cover;
+    backdrop-filter: blur(8px);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
